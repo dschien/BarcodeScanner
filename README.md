@@ -1,6 +1,18 @@
 BarcodeScanner
 ==============
 
+## INSTALLATION
+```
+sudo npm install -g cordova 3.3.1-0.1.2
+cordova create helloworld
+cd helloworld
+cordova platform add android
+cordova build
+git clone https://github.com/dschien/BarcodeScanner.git barcodescanner
+cordova plugin add barcodescanner
+```
+
+
 Cross-platform BarcodeScanner for Cordova / PhoneGap.
 
 Follows the [Cordova Plugin spec](http://docs.phonegap.com/en/3.0.0/plugin_ref_spec.md.html), so that it works with [Plugman](https://github.com/apache/cordova-plugman).
